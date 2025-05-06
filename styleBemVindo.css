@@ -1,0 +1,35 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    background-image: url(https://i.pinimg.com/736x/a5/e7/1f/a5e71f2709d0dee1a26ea2d4ca05323a.jpg);
+}
+
+.texto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    color: aliceblue;
+
+    background-color: rgba(0, 0,0, 0.15);
+    border-radius: 1rem;
+}
+
+.texto h1 {
+    font-size: 3rem;
+}
+
+.texto p {
+    text-align: justify;
+    font-size: 20px;
+    width: 80%;
+    margin-top: 4rem;
+}
